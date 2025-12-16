@@ -31,7 +31,7 @@ from extractor import extract_goal_and_tasks
 
 # ---------------- CONFIG ----------------
 
-BOT_TOKEN = "8554816878:AAHse-kzEvKsVPlJcqWf7KFU3Od7aQ-hz2w"
+BOT_TOKEN = "Your_bot_tocken"
 DB = "assistant.db"
 
 PENDING_INGESTION = {}
@@ -290,4 +290,5 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
+
     main()
